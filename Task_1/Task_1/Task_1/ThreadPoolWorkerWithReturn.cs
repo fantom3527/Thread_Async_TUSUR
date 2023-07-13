@@ -82,6 +82,5 @@ namespace Task_1
                     Completed = true;
             }
         }
-
     }
 }
