@@ -20,12 +20,52 @@ namespace _04_Lecture_Task_Wait
                 new Task(DoSomething, 3500),
             };
 
-            Console.WriteLine($"Метод Main выполняется в потоке {Thread.CurrentThread.ManagedThreadId}") ;
+            Console.WriteLine("Выберите из списка:" +
+                             "\n 1) Ждет task.Wait(); в foreach для всех tasks" +
+                             "\n 2) Ждет Task.WaitAll(tasks)" +
+                             "\n 3) Ждет Task.WaitAny(tasks)"); 
+            int choice = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"Метод Main выполняется в потоке {Thread.CurrentThread.ManagedThreadId}");
             foreach (Task task in tasks)
                 task.Start();
 
-            Console.WriteLine($"Метод Main ожидает в потоке {Thread.CurrentThread.ManagedThreadId}");
+            switch (choice)
+            {
+                case 1:
+                    {
+                        Console.WriteLine("Выполняется 1 пункт");
+                        Console.WriteLine($"Метод Main ожидает в потоке {Thread.CurrentThread.ManagedThreadId}");
 
+                        foreach (Task task in tasks)
+                            task.Wait();
+                        WriteSomething();
+
+                        break;
+                    }
+                case 2:
+                    {
+                        Console.WriteLine("Выполняется 2 пункт");
+                        Console.WriteLine($"Метод Main ожидает в потоке {Thread.CurrentThread.ManagedThreadId}");
+
+                        Task.WaitAll(tasks);
+                        WriteSomething();
+
+                        break;
+                    }
+                case 3:
+                    {
+                        Console.WriteLine("Выполняется 3 пункт");
+                        Console.WriteLine($"Метод Main ожидает в потоке {Thread.CurrentThread.ManagedThreadId}");
+
+                        Task.WaitAny(tasks);
+                        WriteSomething();
+
+                        break;
+                    }
+                default:
+                    break;
+            }
         }
 
         private static void DoSomething(object sleepTime)
@@ -36,5 +76,15 @@ namespace _04_Lecture_Task_Wait
 
             Console.WriteLine($"Задача #{Task.CurrentId} завершилась в потоке {Thread.CurrentThread.ManagedThreadId}");
         }
+
+        private static void WriteSomething()
+        {
+            Console.WriteLine($"Метод Main продолжает в потоке {Thread.CurrentThread.ManagedThreadId}");
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine($"Main {i}");
+            }
+        }
     }
+        
 }

@@ -3,13 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33130.400
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Lecture_Task", "Task_2\01_Lecture_Task.csproj", "{61DC28DD-C8C7-4761-A062-1EA8E568CEA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Lecture_Task", "Task_2\01_Lecture_Task.csproj", "{61DC28DD-C8C7-4761-A062-1EA8E568CEA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Lecture_Task_Parameters", "02_Lecture_Task\02_Lecture_Task_Parameters.csproj", "{A195FC65-1C98-4A9D-9758-273FD276D43C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Lecture_Task_Parameters", "02_Lecture_Task\02_Lecture_Task_Parameters.csproj", "{A195FC65-1C98-4A9D-9758-273FD276D43C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Lecture_Task_Status", "03_Lecture_Task\03_Lecture_Task_Status.csproj", "{311CA8DC-4353-45B1-88BD-ED3CB7575BC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Lecture_Task_Status", "03_Lecture_Task\03_Lecture_Task_Status.csproj", "{311CA8DC-4353-45B1-88BD-ED3CB7575BC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Lecture_Task_Wait", "04_Lecture_Task_Wait\04_Lecture_Task_Wait.csproj", "{B0DD28EC-8128-47B7-A92E-A71639405D3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Lecture_Task_Wait", "04_Lecture_Task_Wait\04_Lecture_Task_Wait.csproj", "{B0DD28EC-8128-47B7-A92E-A71639405D3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Lecture_Task_Parametrs", "05_Lecture_Task_Parametrs\05_Lecture_Task_Parametrs.csproj", "{74F66F82-AA26-4805-966E-76BB96DE2DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Lecture_Task_Continuation", "06_Lecture_Task_Continuation\06_Lecture_Task_Continuation.csproj", "{BEC48A0F-9303-4F3D-9F51-3807803EADEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Lecture_Task_Continuation", "07_Lecture_Task_Continuation\07_Lecture_Task_Continuation.csproj", "{5CEB8AF8-9837-417B-8B0E-ADB3EFC48EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Lecture_Task_Continuation_DifferentWays", "08_Lecture_Task_Continuation_DifferentWays\08_Lecture_Task_Continuation_DifferentWays.csproj", "{F40D0F04-5613-4708-9F23-313BAE830A13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Lecture_TaskFactory_Continuation", "09_LectureTaskFactory_Continuation\09_Lecture_TaskFactory_Continuation.csproj", "{652684CC-1684-4E19-9C81-9589C8D4BF3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Lecture_Task_Continuation_Parametrs", "10_Lecture_Task_Continuation_Parametrs\10_Lecture_Task_Continuation_Parametrs.csproj", "{33A2EA5F-EE78-4A09-81DE-7FAC05E0C47B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Lecture_Task_NestedTasks", "11_Lecture_Task_NestedTasks\11_Lecture_Task_NestedTasks.csproj", "{287B5F9F-BBDB-4D73-94E7-8E16C512FC89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Lecture_TaskSchedulerFunctionality", "12_Lecture_TaskSchedulerFunctionality\12_Lecture_TaskSchedulerFunctionality.csproj", "{ECD0558B-AECE-4C20-A2B2-1FCC82FC547C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +49,38 @@ Global
 		{B0DD28EC-8128-47B7-A92E-A71639405D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0DD28EC-8128-47B7-A92E-A71639405D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0DD28EC-8128-47B7-A92E-A71639405D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F66F82-AA26-4805-966E-76BB96DE2DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F66F82-AA26-4805-966E-76BB96DE2DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F66F82-AA26-4805-966E-76BB96DE2DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F66F82-AA26-4805-966E-76BB96DE2DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC48A0F-9303-4F3D-9F51-3807803EADEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC48A0F-9303-4F3D-9F51-3807803EADEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC48A0F-9303-4F3D-9F51-3807803EADEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC48A0F-9303-4F3D-9F51-3807803EADEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CEB8AF8-9837-417B-8B0E-ADB3EFC48EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CEB8AF8-9837-417B-8B0E-ADB3EFC48EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CEB8AF8-9837-417B-8B0E-ADB3EFC48EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CEB8AF8-9837-417B-8B0E-ADB3EFC48EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F40D0F04-5613-4708-9F23-313BAE830A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40D0F04-5613-4708-9F23-313BAE830A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40D0F04-5613-4708-9F23-313BAE830A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40D0F04-5613-4708-9F23-313BAE830A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{652684CC-1684-4E19-9C81-9589C8D4BF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{652684CC-1684-4E19-9C81-9589C8D4BF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{652684CC-1684-4E19-9C81-9589C8D4BF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{652684CC-1684-4E19-9C81-9589C8D4BF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A2EA5F-EE78-4A09-81DE-7FAC05E0C47B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A2EA5F-EE78-4A09-81DE-7FAC05E0C47B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A2EA5F-EE78-4A09-81DE-7FAC05E0C47B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A2EA5F-EE78-4A09-81DE-7FAC05E0C47B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{287B5F9F-BBDB-4D73-94E7-8E16C512FC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287B5F9F-BBDB-4D73-94E7-8E16C512FC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287B5F9F-BBDB-4D73-94E7-8E16C512FC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287B5F9F-BBDB-4D73-94E7-8E16C512FC89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD0558B-AECE-4C20-A2B2-1FCC82FC547C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD0558B-AECE-4C20-A2B2-1FCC82FC547C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD0558B-AECE-4C20-A2B2-1FCC82FC547C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD0558B-AECE-4C20-A2B2-1FCC82FC547C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
