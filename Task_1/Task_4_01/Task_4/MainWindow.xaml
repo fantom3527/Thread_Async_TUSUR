@@ -1,0 +1,18 @@
+﻿<Window x:Class="Task_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task_4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Column="1" Content="Загрузка" Margin="65,29,58,0" VerticalAlignment="Top" Height="35" Click="btnDownload_Click"/>
+        <Button Grid.Column="1" Content="Проверка" Margin="65,94,57,0" VerticalAlignment="Top" Height="35" Click="btnWarning_Click"/>
+        <TextBox Grid.Column="0" x:Name="richTextBox" Margin="28,0,33,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Height="396"/>
+    </Grid>
+</Window>
